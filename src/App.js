@@ -2,7 +2,7 @@ import React from 'react';
 import { base } from 'common/lib/airtable';
 
 const fetchData = () => {
-    console.log(window.logo_tag);
+    console.log('fetchData', window.logo_tag);
     // fetch airtable data
     return new Promise((resolve) => {
         base('ICO Logos')
